@@ -1,0 +1,36 @@
+.app {
+    width: 80%;
+}
+
+.circle-green {
+    border-radius: 400px;
+    color:green;
+    background-color:green;
+    width:500px;
+height:500px
+}
+
+.circle-red {
+    border-radius: 400px;
+    color:green;
+    background-color:green;
+    width:500px;
+height:500px
+}
+
+.circle-yellow {
+    border-radius: 400px;
+    color:green;
+    background-color:green;
+    width:500px;
+height:500px
+}
+
+.center-container {
+display:flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+
+font-size: 50px;
+}
