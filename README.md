@@ -12,7 +12,8 @@
 
 ## Design
 
-[design](Mockups)
+[Mockups](design)
+[Team: Work & Brainstorming Photos](work&brainstorming)
 
 
 ## Pototype
