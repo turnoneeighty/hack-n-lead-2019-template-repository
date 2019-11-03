@@ -1,7 +1,7 @@
 # Fashion Conscience
 
 We are a non profit app that educates people on the sustainability for fashion business.
-![screenshot](app-image.png)
+![screenshot](app-screenshot.png)
 
 ## Design
 
