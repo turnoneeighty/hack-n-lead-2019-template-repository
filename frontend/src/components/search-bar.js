@@ -6,24 +6,28 @@ class SearchBar extends React.Component {
     onFormSubmit = event => {
         event.preventDefault();
         this.props.onSubmit(this.state.inputText);
-
-
     };
 
     render() {
         return (
-            <div className="search-bar ui segment">
-                <form onSubmit={this.onFormSubmit} className="ui form">
-                    <div className="field">
-                        <label>Clothes Search</label>
+            <header>
+                <div className="search-bar input-group mb-3">
+                    <form onSubmit={this.onFormSubmit}>
                         <input
+                            className="form-control"
                             type="text"
+                            aria-label="Type URL" aria-describedby="basic-addon2"
+                            placeholder="Type URL"
                             value={this.state.inputText}
                             onChange={e => this.setState({ inputText: e.target.value })}
                         />
+                    </form>
+                    <div className="input-group-append">
+                        <button className="btn btn-primary" type="button"><i className="fas fa-search" aria-hidden="true"></i></button>
                     </div>
-                </form>
-            </div>
+                    <button className="btn btn-primary fas fa-camera" type="submit"><i aria-hidden="true"></i></button>
+                </div>
+            </header>
         );
     }
 }

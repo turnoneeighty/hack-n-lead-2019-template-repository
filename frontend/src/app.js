@@ -17,7 +17,6 @@ function App() {
         <CarbonFootprint number={carbonFootprintNumber} />:
         null
       }
-      
     </div >
   );
 }

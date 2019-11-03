@@ -11,13 +11,21 @@ function renderColourCircle(number) {
     }
 }
 
-const CarbonFootprint = ({ number }) => {
+const CarbonFootprint = ({ number, imageUrl}) => {
     return (
-        <div className="ui grid">
-            <div className="eight wide column">
-                {
-                    renderColourCircle(number)
-                }
+        <div className="item">
+            <div className="item-col-left">
+                <img src={imageUrl} alt="Classic Jumpsuit"/>
+            </div>
+
+            <div class="item-col-right">
+                <img class="item-logo" src="img/logo-hm.png" alt="Classic Jumpsuit" />
+                <span class="item-title">Casual Jumpsuit</span>
+                <span class="item-recommend">
+                    {
+                        renderColourCircle(number)
+                    }
+                </span>
             </div>
 
             <div className="eight wide column">
