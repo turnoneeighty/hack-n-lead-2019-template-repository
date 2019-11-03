@@ -12,7 +12,8 @@
 
 ## Design
 
-[design](design)
+[design](Mockups)
+
 
 ## Pototype
 
